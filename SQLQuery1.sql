@@ -11,3 +11,9 @@ zip int,
 phoneNumber int,
 email varchar(60)
 );
+
+INSERT INTO Contact
+Values('Brock','Lesnar','WWEStreet','California','Usa',23421,9292323224,'SuplexAllDay@wwe.co.in'),
+('Aman', 'vasani', 'vijayNagar', 'Jabalpur', 'MadhyaPradesh', 135333, 09834534321, 'anan@gmail.com'),
+('aditya', 'Pant', 'SD Road', 'Gurgaon', 'UP', 542341, 0987634521, 'aditya@gmail.com'),
+('Rand', 'Menon', 'Dali nagar', 'Peru', 'London', 129123, 09876554321, 'Say@email.com');
