@@ -6,7 +6,7 @@ namespace AdvAddressBook
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Table Of Contact is added");
         }
     }
 }
