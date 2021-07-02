@@ -1,7 +1,7 @@
 CREATE DATABASE AddressBook;
 USE AddressBook;
 
-create table Contact(
+CREATE table Contact(
 firstName varchar(50),
 lastName varchar(50),
 address varchar(100),
@@ -17,3 +17,7 @@ Values('Brock','Lesnar','WWEStreet','California','Usa',23421,9292323224,'SuplexA
 ('Aman', 'vasani', 'vijayNagar', 'Jabalpur', 'MadhyaPradesh', 135333, 09834534321, 'anan@gmail.com'),
 ('aditya', 'Pant', 'SD Road', 'Gurgaon', 'UP', 542341, 0987634521, 'aditya@gmail.com'),
 ('Rand', 'Menon', 'Dali nagar', 'Peru', 'London', 129123, 09876554321, 'Say@email.com');
+--U4Editing contact using their firstaName
+UPDATE Contact Set phoneNumber=1234343442 where firstName='Brock';
+
+Select * from Contact;
