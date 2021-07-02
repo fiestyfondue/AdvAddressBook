@@ -21,3 +21,7 @@ Values('Brock','Lesnar','WWEStreet','California','Usa',23421,9292323224,'SuplexA
 UPDATE Contact Set phoneNumber=1234343442 where firstName='Brock';
 
 Select * from Contact;
+
+--UC5DeletingContact
+Delete From Contact where firstName='Rand';
+Select * from Contact;
