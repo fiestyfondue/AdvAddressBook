@@ -25,3 +25,6 @@ Select * from Contact;
 --UC5DeletingContact
 Delete From Contact where firstName='Rand';
 Select * from Contact;
+
+--UC6Retrieve data using City and state
+Select * from Contact where city='Jabalpur' or state='MadhyaPradesh';
