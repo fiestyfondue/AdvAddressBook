@@ -28,3 +28,7 @@ Select * from Contact;
 
 --UC6Retrieve data using City and state
 Select * from Contact where city='Jabalpur' or state='MadhyaPradesh';
+
+--UC7GettingSizeOfAddressBook using State and city
+Select Count(city) from Contact
+Select Count(State) from Contact
